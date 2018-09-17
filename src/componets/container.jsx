@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Branding from './branding';
-import Skills from './skills';
+import Educations from './educations';
 
 class Container extends Component {
   render() {
@@ -8,9 +8,9 @@ class Container extends Component {
     return (
       <div className="col-lg">
         <Branding theme={theme} colors={colors} doHandleTheme={doHandleTheme} />
-        <Skills theme={theme}>
-          <h3>Skills</h3>
-        </Skills>
+        <Educations theme={theme}>
+          <h3>Educations</h3>
+        </Educations>
       </div>
     );
   }
